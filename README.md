@@ -16,7 +16,7 @@ then you have to run following lines to start the server
 
 ```
 npm i
-npm start index.js
+expo start
 ```
 
 ## Fetures
