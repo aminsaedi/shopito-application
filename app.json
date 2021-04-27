@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "شاپیتو",
+    "slug": "shopitoApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4ecdc4"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aminapps.shopito"
+    },
+    "android": {
+      "package": "com.aminapps.shopito",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "backgroundColor": "#4ecdc4"
+      }
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    }
+  }
+}
